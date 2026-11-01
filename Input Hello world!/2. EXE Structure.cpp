@@ -7,7 +7,7 @@ using namespace std;
 void print_flag(string &flag){
     for (auto& character : flag){
             cout << character << flush;   // flush: 直接印出，不管緩衝區，確保字元立刻顯示在螢幕上
-            this_thread::sleep_for(chrono::milliseconds(100));  // 停頓時間為 200 毫秒（0.2 秒）
+            this_thread::sleep_for(chrono::milliseconds(200));  // 停頓時間為 200 毫秒（0.2 秒）
     }
     cout << endl;
     
