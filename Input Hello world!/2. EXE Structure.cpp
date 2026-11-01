@@ -27,5 +27,6 @@ int main(){
         cout << "Don't you wanna get the flag?";
     }
     
+    this_thread::sleep_for(chrono::milliseconds(1000 * 10));  // 等個 10 秒，讓使用者能夠複製。
     return 0;
 }
