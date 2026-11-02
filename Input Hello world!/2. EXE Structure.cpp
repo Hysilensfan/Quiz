@@ -20,7 +20,7 @@ int main(){
     cout << "Say 'Hello world!', you can get the flag!" << endl;
     getline(cin, data);
     
-    if (data == "Hello world!"){  # 字串比較
+    if (data == "Hello world!"){  // 字串比較
         print_flag(flag);
     }
     else{
