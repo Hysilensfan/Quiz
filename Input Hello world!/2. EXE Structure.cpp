@@ -15,7 +15,7 @@ void print_flag(string &flag){
 }
 
 int main(){
-    string data, flag {"Hysilensfan{+h3_3Imqle_trYs!}"};
+    string data, flag {"flag考試之前不公開!"};
     
     cout << "Say 'Hello world!', you can get the flag!" << endl;
     getline(cin, data);
