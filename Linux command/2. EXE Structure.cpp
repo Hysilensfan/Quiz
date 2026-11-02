@@ -193,7 +193,7 @@ public:
             "            return result\n";
 
         files["/home/tester/Public/folder3/flag.txt"] =
-            "Hysilensfan{+H3_LlnuX_3h2II!}\n";
+            "flag考試之前不公開!\n";
     }
 
     void write(const string& message) {
