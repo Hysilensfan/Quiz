@@ -19,7 +19,7 @@ void print_flag(const string& flag) {
 }
 
 int main() {
-    string data, flag = "Hysilensfan{p@33M0RD_FL@G_G3T}";
+    string data, flag = "flag考試完之前不公開!";
 
     cout << "Set a \033[31;40m valid password\033[0m , "
          << "you can get the flag!" << endl;
