@@ -182,7 +182,7 @@ private:
             "Try exploring the directories.\n";
 
         files["c:\\users\\user\\folder3\\flag.txt"] =
-            "Hysilensfab{Wlnd0w3_CMD:}\n";
+            "flag考試完之前不公開!\n";
 
         hidden_files.insert(
             "c:\\users\\user\\folder3\\flag.txt"
